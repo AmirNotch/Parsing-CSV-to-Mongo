@@ -1,4 +1,4 @@
-1) Реализовать парсер данных из файла DH_HS5_HS2_E2_Data_corr_V2.csv в MongoDB.
+![image](https://github.com/AmirNotch/Parsing-CSV-to-Mongo/assets/69799846/153e4242-ee5f-4513-b257-86009c091d74)1) Реализовать парсер данных из файла DH_HS5_HS2_E2_Data_corr_V2.csv в MongoDB.
 
 Шаги для настройки копирования файла
 Добавьте файл CSV в проект: Убедитесь, что файл DH_HS5_HS2_E2_Data_corr_V2.csv добавлен в проект в папку Data.
@@ -14,20 +14,20 @@ Copy to Output Directory: Copy if newer или Copy always
 
 Используя команду "db.SensorDataCollection.find().sort({DateTime: 1}).limit(1)"
 видим что первая строка спарселась точно.
-![image](https://github.com/AmirNotch/Parsing-CSV-To-MongoDB/assets/69799846/5228bfe5-f345-4ceb-bde7-0e09967a0da7)
+![image](https://github.com/AmirNotch/Parsing-CSV-to-Mongo/assets/69799846/3ca94e50-3bfb-456a-98d4-b0d00c546da0)
+
 Так же видим что выдаёт MongoDB
-![image](https://github.com/AmirNotch/Parsing-CSV-To-MongoDB/assets/69799846/e8b3bf4c-773c-48a0-bd9a-d6338fcff856)
+![image](https://github.com/AmirNotch/Parsing-CSV-to-Mongo/assets/69799846/f00f350f-bb24-4434-98e9-f33cec7017d8)
 
 Затем 
 
 Используя команду "db.SensorDataCollection.find().sort({DateTime: -1}).limit(1)"
 видим что последняя строка спарселась точно.
-![image](https://github.com/AmirNotch/Parsing-CSV-To-MongoDB/assets/69799846/7186b392-5105-4604-bba6-d3f703242dd7)
+![image](https://github.com/AmirNotch/Parsing-CSV-to-Mongo/assets/69799846/5c79ec79-97fd-47e7-ac26-2ff884005972)
+
 Так же видим что выдаёт MongoDB
-![image](https://github.com/AmirNotch/Parsing-CSV-To-MongoDB/assets/69799846/d68b0081-a8ef-4d87-b8bc-87b5a4b241ac)
+![image](https://github.com/AmirNotch/Parsing-CSV-to-Mongo/assets/69799846/5daf1ee0-e867-46c9-9f12-ce9e5a022335)
+
 
 Так же видим что MSTest прошёл проверку
-![image](https://github.com/AmirNotch/Parsing-CSV-To-MongoDB/assets/69799846/bf9b33cc-4a7d-4cd3-af1b-e79436ccf254)
-
-
-
+![image](https://github.com/AmirNotch/Parsing-CSV-to-Mongo/assets/69799846/3bc57e65-a052-46c7-9e7a-8a565537d1f7)
