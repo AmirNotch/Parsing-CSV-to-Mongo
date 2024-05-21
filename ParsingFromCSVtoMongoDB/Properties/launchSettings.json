@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ParsingFromCSVtoMongoDB": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

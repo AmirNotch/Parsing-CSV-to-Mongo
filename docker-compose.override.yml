@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  scvdatabase:
+     container_name: scvdatabase
+     restart: always
+     ports:
+       - "27017:27017"
+     volumes:
+       - mongo_data:/data/db
+
+  parsingfromcsvtomongodb:
+     container_name: parsingfromcsvtomongodb
+     depends_on:
+       - scvdatabase

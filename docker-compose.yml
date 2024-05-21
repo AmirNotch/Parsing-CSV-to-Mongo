@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  scvdatabase:
+    image: mongo:7
+
+  parsingfromcsvtomongodb:
+    image: ${DOCKER_REGISTRY-}parsingfromcsvtomongodb
+    build:
+      context: .
+      dockerfile: ParsingFromCSVtoMongoDB/Dockerfile
+
+volumes:
+  mongo_data:
