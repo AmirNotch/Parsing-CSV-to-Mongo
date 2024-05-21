@@ -1,4 +1,4 @@
-![image](https://github.com/AmirNotch/Parsing-CSV-to-Mongo/assets/69799846/153e4242-ee5f-4513-b257-86009c091d74)1) Реализовать парсер данных из файла DH_HS5_HS2_E2_Data_corr_V2.csv в MongoDB.
+1) Реализовать парсер данных из файла DH_HS5_HS2_E2_Data_corr_V2.csv в MongoDB.
 
 Шаги для настройки копирования файла
 Добавьте файл CSV в проект: Убедитесь, что файл DH_HS5_HS2_E2_Data_corr_V2.csv добавлен в проект в папку Data.
